@@ -254,7 +254,7 @@ export default {
       this.porcentajea = this.$route.params.porcentaje
       this.ponderadoa = this.$route.params.ponderado
       let self = this
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador1")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador1")
       .then((result) => {
       self.gerencia = result.data.gerencia
       self.nombreina = result.data.name
@@ -264,7 +264,7 @@ export default {
       this.nombreinb = this.$route.params.name
       this.porcentajeb = this.$route.params.porcentaje
       this.ponderadob = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador2")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador2")
       .then((result) => {
       self.nombreinb = result.data.name
       self.porcentajeb = result.data.porcentaje
@@ -273,7 +273,7 @@ export default {
       this.nombreinc = this.$route.params.name
       this.porcentajec = this.$route.params.porcentaje
       this.ponderadoc = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador3")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador3")
       .then((result) => {
       self.nombreinc = result.data.name
       self.porcentajec = result.data.porcentaje
@@ -282,7 +282,7 @@ export default {
       this.nombreind = this.$route.params.name
       this.porcentajed = this.$route.params.porcentaje
       this.ponderadod = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador4")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador4")
       .then((result) => {
       self.nombreind = result.data.name
       self.porcentajed = result.data.porcentaje
@@ -291,7 +291,7 @@ export default {
       this.nombreine = this.$route.params.name
       this.porcentajee = this.$route.params.porcentaje
       this.ponderadoe = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador5")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador5")
       .then((result) => {
       self.nombreine = result.data.name
       self.porcentajee = result.data.porcentaje
@@ -300,7 +300,7 @@ export default {
       this.nombreinf = this.$route.params.name
       this.porcentajef = this.$route.params.porcentaje
       this.ponderadof = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador6")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador6")
       .then((result) => {
       self.nombreinf = result.data.name
       self.porcentajef = result.data.porcentaje
@@ -309,7 +309,7 @@ export default {
       this.nombreing = this.$route.params.name
       this.porcentajeg = this.$route.params.porcentaje
       this.ponderadog = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador7")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador7")
       .then((result) => {
       self.nombreing = result.data.name
       self.porcentajeg = result.data.porcentaje
@@ -318,7 +318,7 @@ export default {
       this.nombreinh = this.$route.params.name
       this.porcentajeh = this.$route.params.porcentaje
       this.ponderadoh = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador8")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador8")
       .then((result) => {
       self.nombreinh = result.data.name
       self.porcentajeh = result.data.porcentaje
@@ -327,7 +327,7 @@ export default {
       this.nombreini = this.$route.params.name
       this.porcentajei = this.$route.params.porcentaje
       this.ponderadoi = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador9")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador9")
       .then((result) => {
       self.nombreini = result.data.name
       self.porcentajei = result.data.porcentaje
@@ -336,7 +336,7 @@ export default {
       this.nombreinj = this.$route.params.name
       this.porcentajej = this.$route.params.porcentaje
       this.ponderadoj = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador10")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador10")
       .then((result) => {
       self.nombreinj = result.data.name
       self.porcentajej = result.data.porcentaje
@@ -345,7 +345,7 @@ export default {
       this.nombreink = this.$route.params.name
       this.porcentajek = this.$route.params.porcentaje
       this.ponderadok = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador11")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador11")
       .then((result) => {
       self.nombreink = result.data.name
       self.porcentajek = result.data.porcentaje
@@ -354,7 +354,7 @@ export default {
       this.nombreinl = this.$route.params.name
       this.porcentajel = this.$route.params.porcentaje
       this.ponderadol = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador12")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador12")
       .then((result) => {
       self.nombreinl = result.data.name
       self.porcentajel = result.data.porcentaje
@@ -363,7 +363,7 @@ export default {
       this.nombreinm = this.$route.params.name
       this.porcentajem = this.$route.params.porcentaje
       this.ponderadom = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador13")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador13")
       .then((result) => {
       self.nombreinm = result.data.name
       self.porcentajem = result.data.porcentaje
@@ -372,7 +372,7 @@ export default {
       this.nombreinn = this.$route.params.name
       this.porcentajen = this.$route.params.porcentaje
       this.ponderadon = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador14")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador14")
       .then((result) => {
       self.nombreinn = result.data.name
       self.porcentajen = result.data.porcentaje
@@ -381,7 +381,7 @@ export default {
       this.nombreino = this.$route.params.name
       this.porcentajeo = this.$route.params.porcentaje
       this.ponderadoo = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador15")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador15")
       .then((result) => {
       self.nombreino = result.data.name
       self.porcentajeo = result.data.porcentaje
@@ -390,7 +390,7 @@ export default {
       this.nombreinp = this.$route.params.name
       this.porcentajep = this.$route.params.porcentaje
       this.ponderadop = this.$route.params.ponderado
-      axios.get("https://indicadorb.herokuapp.com/Indicadores/Indicador16")
+      axios.get("https://indicadorb.herokuapp.com/Indicadoresa/Indicador16")
       .then((result) => {
       self.nombreinp = result.data.name
       self.porcentajep = result.data.porcentaje
