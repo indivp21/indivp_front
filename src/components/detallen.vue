@@ -62,9 +62,9 @@ export default {
   },
   methods: {
     goto: function(){
-      if(this.$route.name != "indicadores"){
-      let username = localStorage.getItem("current_indicadores")
-      this.$router.push({name: "indicadores", params:{username:username}})
+      if(this.$route.name != "indicadoresa"){
+      let username = localStorage.getItem("current_indicadoresa")
+      this.$router.push({name: "indicadoresa", params:{username:username}})
       }
     },
   },

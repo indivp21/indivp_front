@@ -17,7 +17,7 @@ name: 'header',
   /*components: {
     Gerencia,
     User
-  },*/
+  },
   data: function (){
       return {
       rango: ""
@@ -33,7 +33,7 @@ name: 'header',
       .catch((error) => {
       alert("Sin informacion para mostrar");
       });
-  },
+  },*/
   methods: {
     init: function(){
       if(this.$route.name != "User"){
