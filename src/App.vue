@@ -9,31 +9,14 @@
   </div>
 </template>
 <script>
-/*import Gerencia from './components/gerencia.vue'
+import Gerencia from './components/gerencia.vue'
 import User from './components/user.vue'
-*/
 export default {
 name: 'header',
-  /*components: {
+  components: {
     Gerencia,
     User
   },
-  data: function (){
-      return {
-      rango: ""
-      }
-  },
-  created: function(){
-      this.rango = this.$route.params.rango
-      let self = this
-      axios.get("https://indicadorb.herokuapp.com/Gerencia/Gerencia1")
-      .then((result) => {
-      self.rango = result.data.rango
-      })
-      .catch((error) => {
-      alert("Sin informacion para mostrar");
-      });
-  },*/
   methods: {
     init: function(){
       if(this.$route.name != "User"){
