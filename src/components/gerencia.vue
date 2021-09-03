@@ -17,9 +17,9 @@ export default {
   name: 'gerencia',
   data: function (){
       return {
-      gerenciaa: "",
-      indicadora: 0.0,
-      colorina: "",
+      gerencia: "",
+      indicador: 0.0,
+      colorin: "",
       gerenciab: "",
       indicadorb: 0.0,
       colorinb: "",
