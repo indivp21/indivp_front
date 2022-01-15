@@ -1,4 +1,4 @@
-  <template>
+<template>
 <div id="mainindi">
   <h2>Indicadores</h2>
   <h3>{{gerencia}}</h3>
