@@ -20,7 +20,7 @@
     <button v-on:click="gotoa"><font face="Century Gothic">--</font></button>
     </form>
   </nav2>
-  <nav2>
+  <nav7>
     <label1 for="fgerencia"> {{nombreinb}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajeb}}</h4>
@@ -30,8 +30,8 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotob"><font face="Century Gothic">--</font></button>
     </form>
-  </nav2>
-  <nav10>
+  </nav7>
+  <nav4>
     <label1 for="fgerencia"> {{nombreinc}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajec}}</h4>
@@ -41,7 +41,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoc"><font face="Century Gothic">--</font></button>
     </form>
-  </nav10>
+  </nav4>
   <nav4>
     <label1 for="fgerencia"> {{nombreind}}  </label1>
     <label2 for="fgerencia"> </label2>
@@ -62,17 +62,6 @@
     <label2 for="fgerencia"> </label2>
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoe"><font face="Century Gothic">--</font></button>
-    </form>
-  </nav4>
-  <nav4>
-    <label1 for="fgerencia"> {{nombreinf}}  </label1>
-    <label2 for="fgerencia"> </label2>
-    <h4>{{porcentajef}}</h4>
-    <label2 for="fgerencia"> </label2>
-    <h5>{{ponderadof}}</h5>
-    <label2 for="fgerencia"> </label2>
-    <form v-on:submit.prevent="ShowDetail">
-    <button v-on:click="gotof"><font face="Century Gothic">--</font></button>
     </form>
   </nav4>
   <nav4>
@@ -163,7 +152,7 @@
     <button v-on:click="goton"><font face="Century Gothic">--</font></button>
     </form>
   </nav4>
-  <nav4>
+  <nav12>
     <label1 for="fgerencia"> {{nombreino}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajeo}}</h4>
@@ -173,8 +162,8 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoo"><font face="Century Gothic">--</font></button>
     </form>
-  </nav4>
-  <nav12>
+  </nav12>
+  <nav4>
     <label1 for="fgerencia"> {{nombreinp}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajep}}</h4>
@@ -184,8 +173,8 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotop"><font face="Century Gothic">--</font></button>
     </form>
-  </nav12>
-  <nav11>
+  </nav4>
+  <nav4>
     <label1 for="fgerencia"> {{nombreinq}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajeq}}</h4>
@@ -195,8 +184,8 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoq"><font face="Century Gothic">--</font></button>
     </form>
-  </nav11>
-  <nav11>
+  </nav4>
+  <nav12>
     <label1 for="fgerencia"> {{nombreinr}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajer}}</h4>
@@ -206,8 +195,8 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotor"><font face="Century Gothic">--</font></button>
     </form>
-  </nav11>
-  <nav4>
+  </nav12>
+  <nav11>
     <label1 for="fgerencia"> {{nombreins}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajes}}</h4>
@@ -217,7 +206,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotos"><font face="Century Gothic">--</font></button>
     </form>
-  </nav4>
+  </nav11>
   <nav4>
     <label1 for="fgerencia"> {{nombreint}}  </label1>
     <label2 for="fgerencia"> </label2>
@@ -284,7 +273,7 @@
     <button v-on:click="gotoy"><font face="Century Gothic">--</font></button>
     </form>
   </nav4>
-  <nav11>
+  <nav4>
     <label1 for="fgerencia"> {{nombreinz}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajez}}</h4>
@@ -294,7 +283,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoz"><font face="Century Gothic">--</font></button>
     </form>
-  </nav11>
+  </nav4>
   <nav4>
     <label1 for="fgerencia"> {{nombreinaa}}  </label1>
     <label2 for="fgerencia"> </label2>
@@ -304,6 +293,17 @@
     <label2 for="fgerencia"> </label2>
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoaa"><font face="Century Gothic">--</font></button>
+    </form>
+  </nav4>
+  <nav4>
+    <label1 for="fgerencia"> {{nombreinab}}  </label1>
+    <label2 for="fgerencia"> </label2>
+    <h4>{{porcentajeab}}</h4>
+    <label2 for="fgerencia"> </label2>
+    <h5>{{ponderadoab}}</h5>
+    <label2 for="fgerencia"> </label2>
+    <form v-on:submit.prevent="ShowDetail">
+    <button v-on:click="gotoab"><font face="Century Gothic">--</font></button>
     </form>
   </nav4>
   <nav4>
