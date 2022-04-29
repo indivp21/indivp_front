@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="header">
-      <h1>Indicadores Corte<br>13/04/2022 al 21/04/2022</h1>
+      <h1>Indicadores Corte<br>22/04/2022 al 28/04/2022</h1>
     </div>
     <div class="main-component">
       <router-view></router-view>
