@@ -20,7 +20,7 @@
     <button v-on:click="gotoa"><font face="Century Gothic">--</font></button>
     </form>
   </nav2>
-  <nav4>
+  <nav2>
     <label1 for="fgerencia"> {{nombreinb}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajeb}}</h4>
@@ -30,7 +30,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotob"><font face="Century Gothic">--</font></button>
     </form>
-  </nav4>
+  </nav2>
   <nav7>
     <label1 for="fgerencia"> {{nombreinc}}  </label1>
     <label2 for="fgerencia"> </label2>
