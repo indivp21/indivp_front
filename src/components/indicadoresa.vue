@@ -9,7 +9,7 @@
     <label2 for="fgerencia"> </label2>
     <label4 for="fgerencia"> Acum </label4>
   </nav5> 
-  <nav2>
+  <nav8>
     <label1 for="fgerencia"> {{nombreina}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajea}}</h4>
@@ -19,7 +19,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoa"><font face="Century Gothic">--</font></button>
     </form>
-  </nav2>
+  </nav8>
   <nav2>
     <label1 for="fgerencia"> {{nombreinb}}  </label1>
     <label2 for="fgerencia"> </label2>
@@ -42,7 +42,7 @@
     <button v-on:click="gotoc"><font face="Century Gothic">--</font></button>
     </form>
   </nav3>
-  <nav3>
+  <nav11>
     <label1 for="fgerencia"> {{nombreind}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajed}}</h4>
@@ -52,7 +52,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotod"><font face="Century Gothic">--</font></button>
     </form>
-  </nav3>
+  </nav11>
   <nav4>
     <label1 for="fgerencia"> {{nombreine}}  </label1>
     <label2 for="fgerencia"> </label2>
@@ -86,7 +86,7 @@
     <button v-on:click="gotog"><font face="Century Gothic">--</font></button>
     </form>
   </nav4>
-  <nav4>
+  <nav12>
     <label1 for="fgerencia"> {{nombreinh}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajeh}}</h4>
@@ -96,7 +96,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoh"><font face="Century Gothic">--</font></button>
     </form>
-  </nav4>
+  </nav12>
   <nav4>
     <label1 for="fgerencia"> {{nombreini}}  </label1>
     <label2 for="fgerencia"> </label2>
@@ -163,7 +163,7 @@
     <button v-on:click="goton"><font face="Century Gothic">--</font></button>
     </form>
   </nav12>
-  <nav11>
+  <nav4>
     <label1 for="fgerencia"> {{nombreino}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajeo}}</h4>
@@ -173,7 +173,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoo"><font face="Century Gothic">--</font></button>
     </form>
-  </nav11>
+  </nav4>
   <nav11>
     <label1 for="fgerencia"> {{nombreinp}}  </label1>
     <label2 for="fgerencia"> </label2>
