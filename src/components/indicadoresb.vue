@@ -9,7 +9,7 @@
     <label2 for="fgerencia"> </label2>
     <label4 for="fgerencia"> Acum </label4>
   </nav5>  
-  <nav2>
+  <nav4>
     <label1 for="fgerencia"> {{nombreina}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajea}}</h4>
@@ -19,7 +19,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotoa"><font face="Century Gothic">--</font></button>
     </form>
-  </nav2>
+  </nav4>
   <nav2>
     <label1 for="fgerencia"> {{nombreinb}}  </label1>
     <label2 for="fgerencia"> </label2>
