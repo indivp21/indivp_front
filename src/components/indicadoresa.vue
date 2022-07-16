@@ -185,17 +185,6 @@
     <button v-on:click="gotop"><font face="Century Gothic">--</font></button>
     </form>
   </nav4>
-  <nav12>
-    <label1 for="fgerencia"> {{nombreinq}}  </label1>
-    <label2 for="fgerencia"> </label2>
-    <h4>{{porcentajeq}}</h4>
-    <label2 for="fgerencia"> </label2>
-    <h5>{{ponderadoq}}</h5>
-    <label2 for="fgerencia"> </label2>
-    <form v-on:submit.prevent="ShowDetail">
-    <button v-on:click="gotoq"><font face="Century Gothic">--</font></button>
-    </form>
-  </nav12>
   <nav6>
     <button v-on:click="gerencias"><font face="Century Gothic">Ir a Gerencias</font></button>
   </nav6>
