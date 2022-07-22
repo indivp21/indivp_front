@@ -152,7 +152,7 @@
     <button v-on:click="gotom"><font face="Century Gothic">--</font></button>
     </form>
   </nav12>
-  <nav12>
+  <nav4>
     <label1 for="fgerencia"> {{nombreinn}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajen}}</h4>
@@ -162,7 +162,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="goton"><font face="Century Gothic">--</font></button>
     </form>
-  </nav12>
+  </nav4>
   <nav4>
     <label1 for="fgerencia"> {{nombreino}}  </label1>
     <label2 for="fgerencia"> </label2>
@@ -174,7 +174,7 @@
     <button v-on:click="gotoo"><font face="Century Gothic">--</font></button>
     </form>
   </nav4>
-  <nav4>
+  <nav12>
     <label1 for="fgerencia"> {{nombreinp}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajep}}</h4>
@@ -184,7 +184,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotop"><font face="Century Gothic">--</font></button>
     </form>
-  </nav4>
+  </nav12>
   <nav6>
     <button v-on:click="gerencias"><font face="Century Gothic">Ir a Gerencias</font></button>
   </nav6>
