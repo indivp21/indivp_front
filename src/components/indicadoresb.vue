@@ -42,7 +42,7 @@
     <button v-on:click="gotoc"><font face="Century Gothic">--</font></button>
     </form>
   </nav2>
-  <nav11>
+  <nav2>
     <label1 for="fgerencia"> {{nombreind}}  </label1>
     <label2 for="fgerencia"> </label2>
     <h4>{{porcentajed}}</h4>
@@ -52,7 +52,7 @@
     <form v-on:submit.prevent="ShowDetail">
     <button v-on:click="gotod"><font face="Century Gothic">--</font></button>
     </form>
-  </nav11>
+  </nav2>
   <nav4>
     <label1 for="fgerencia"> {{nombreine}}  </label1>
     <label2 for="fgerencia"> </label2>
